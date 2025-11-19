@@ -33,8 +33,7 @@ Create CSS variables for the background color and text color for both dark mode 
   --backgroundColor: var(--grey-50);
   --textColor: var(--grey-900);
 
-  --darkModeTransition: color 0.3s ease-in-out, background-color 0.3s
-      ease-in-out;
+  --darkModeTransition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .dark-theme {
