@@ -1,4 +1,14 @@
+import Gallery from './components/Gallery';
+import SearchForm from './components/SearchForm';
+import Toggle from './components/Toggle';
+
 const App = () => {
-  return <h1>Unsplash Images Starter</h1>;
+  return (
+    <>
+      <Toggle />
+      <SearchForm />
+      <Gallery />
+    </>
+  );
 };
 export default App;
